@@ -1,0 +1,16 @@
+# Positive distance means within that distance cutoff and negative distance means above that distance cutoff.
+
+# AtomPair Target_AtomName Target_ResNum Scaffold_AtomName Scaffold_ResNum distance
+AtomPair CA 15 CB 18 18
+
+# AtomToScaffold Target_AtomName Target_ResNum distance
+AtomToScaffold CB 18 -10
+
+# AtomToTarget Scaffold_AtomName Scaffold_ResNum distance
+AtomToTarget CA 29 5
+
+# RayToScaffold Res1_AtomName Res1_ResNum Res2_AtomName Res2_ResNum ray_length distance
+RayToScaffold CA 18 CB 18 20 3
+
+# RayToTarget Res1_AtomName Res1_ResNum Res2_AtomName Res2_ResNum ray_length distance
+RayToTarget CA 18 CB 18 20 3
